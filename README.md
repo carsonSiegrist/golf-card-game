@@ -11,13 +11,13 @@ Each turn, you may take one of three actions:
 
 The game ends one turn after any player reveals their whole hand.
 
-Scoring:
+Scoring:  
 Each card in your hand counts towards your score, as follows:
 
-A: 20 points
-2: 20 points
-3 through 10: Their value (i.e. 3 is 3 points, 4 is 4...)
-J: 10 points
-Q: 10 points
-K: 0 points
+A: 20 points  
+2: 20 points  
+3 through 10: Their value (i.e. 3 is 3 points, 4 is 4...)  
+J: 10 points  
+Q: 10 points  
+K: 0 points  
 Joker: -5 points
