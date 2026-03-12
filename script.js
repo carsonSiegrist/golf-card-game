@@ -189,6 +189,12 @@ function handleEndTurn() {
     if (msg) {
       msg.textContent = "Game Over";
     }
+    //make the rest of their cards visible so they can score
+    for (let i = 0; i < hand.length; i++) {
+      if (hand[i]) {
+        hand[i].isVisible = true;
+      }
+    }
   }
 
   let end = true;
@@ -263,4 +269,5 @@ function render() {
 document.getElementById("draw-pile").onclick = drawFromDeck;
 document.getElementById("discard-pile").onclick = drawFromDiscard;
 
+// Start game
 initGame();
