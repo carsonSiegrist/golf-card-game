@@ -40,6 +40,8 @@ function initGame() {
       state.deck.push({ suit: s, value: v, isVisible: false });
     }
   }
+  state.deck.push({ suit: "", value: "Joker", isVisible: false });
+  state.deck.push({ suit: "", value: "Joker", isVisible: false });
 
   // Shuffle (Fisher Yates)
   // https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
